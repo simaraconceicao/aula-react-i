@@ -114,14 +114,14 @@ Propriedades ou props é um objeto javascript que passamos como parâmetro para 
 
 Como no HTML passamos as props como atributos de tags.
 
-Veja aqui:
+
 
 #### Children
 
 Children é uma propriedade do objeto props.
 E assim como no HTML, temos as divs mães que criam uma hierarquia com os elementos filhos. Usando o children podemos modificar dados entre as tags de fechamento e abertura de um elemento. 
 
-Veja aqui:
+
 
 
 <br>
