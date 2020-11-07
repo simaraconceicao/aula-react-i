@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import UpperCase from './exemplos/UpperCase'
+import Hello from './exemplos/Hello'
+import CapsLock from './exemplos/CapsLock'
+import Tick from './exemplos/Tick'
+import Card from './exemplos/Card'
+import Lista from './exemplos/Lista'
+import OutraLista from './exemplos/OutraLista'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <UpperCase texto="componente 1: serio, eu to dizendo"/>
+      <Hello qualquerNome="componente 2: Hello World"/>
+      <CapsLock>componente 3: eu realmente to dizendo</CapsLock>
+      <Tick/>
+      <Card/>
+      <Lista/>
+      <OutraLista/>
     </div>
-  );
+  )
 }
 
 export default App;
